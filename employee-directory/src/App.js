@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Rows from "./components/Rows";
 import SearchForm from "./components/SearchForm";
 import Button from "./components/Button";
+import AllButton from "./components/AllButton";
 import MainList from "./employee.json";
 
 class App extends Component {
@@ -36,6 +37,10 @@ class App extends Component {
     this.setState({ employee: aries });
   };
 
+  all = () => {
+    this.setState({ employee: MainList });
+  };
+
   render() {
     return (
       <div>
@@ -59,6 +64,7 @@ class App extends Component {
           handleFormSubmit={this.handleFormSubmit}
         />
         <Button aries={this.aries} />
+        <AllButton all={this.all} />
       </div>
     );
   }
