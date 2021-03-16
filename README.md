@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# # exercise-tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![GitHub](https://img.shields.io/badge/license-MIT-green)
 
-## Available Scripts
+<a href="https://lilipcohen.github.io/react-directory/">Click here to see it in action.</a>
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+_Overview of this project:_
 
-### `npm test`
+- I set out to build an application that allows an employer to view their employees non-sensitive information in table format and be able to filter through.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+_Steps required to install project and get the development environment established:_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Simply use the npm install command in your terminal to install all necessary packages to launch the exercise based application!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_Instructions and examples for use:_
 
-### `npm run eject`
+- On the home page you will be presented with 4 items.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Table
+   1. This will be presented on your screen displaying a table with sections of all the Avengers employees.
+2. Search Form
+   1. You can enter the name of a person you would like to find and get their information back.
+3. Aries Button
+   1. If you click on this button you will be presented with just the employees who's zodiac signs are aries.
+4. All Button
+   1. If you click on this button you will be presented with all the employees.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./public/images/home.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Built under the MIT licence.
 
-## Learn More
+## Credits
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Built by Lili Cohen.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Test
 
-### Code Splitting
+- No tests required.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Questions?
 
-### Analyzing the Bundle Size
+<p float="left">
+<img src="https://avatars.githubusercontent.com/u/69019881?s=460&u=6854268124a5fbb368c638a74662e170b27b5e15&v=4" alt="GitHub profile image" width="150">
+</p>
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### If you have any questions or want to make a contribution please reach out to me here:
 
-### Making a Progressive Web App
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**GitHub:**
 
-### Advanced Configuration
+- @lilipcohen <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Email:**
 
-### Deployment
+- lili.cohen.tv@gmail.com <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**LinkedIn:**
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Lili: http://www.linkedin.com/in/lili-p-cohen
